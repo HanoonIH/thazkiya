@@ -2,14 +2,50 @@
 layout: 'layouts/base.njk'
 ---
 
-<h2>Article page</h2>
+{% set recommendedPosts = helpers.getSiblingContent(collections.post, page) %}
 
-<hr>
+<div class="flex align-center justify-center | py-8 lg:py-12 mb-12">
+    <div class="px-5 | sm:max-w-screen-md">
 
-<h1>{{ title }}</h1>
-<strong> {{ author }} </strong>  &nbsp; | &nbsp;
-<em> {{ page.date | postDate}} </em>
+        <div class="mb-3">
+        {% for item in tags %}
+            <a href="/tags/{{ item }}/" class="inline-block |  mb-2 mr-2">
+                <p class="fontSerif | text-sm font-bold hover:text-white | hover:bg-red-500 | border-2 border-red-500 rounded | pb-1 pt-2 px-2 " >
+                    {{ item }}
+                </p>
+            </a>
+        {% endfor %}
+        </div>
 
-<hr>
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold lg:leading-snug | mb-2">{{ title }}</h1>
 
-<p> {{ content }} </p>
+        {% if author %}
+        <div class="flex">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 006 6.93V17H6a1 1 0 100 2h8a1 1 0 100-2h-3v-2.07z" clip-rule="evenodd" />
+            </svg>
+            <p class="text-sm font-bold text-gray-700 | ml-2">{{ author }} </p> 
+        </div>
+        {% endif %}
+
+        <hr class="h-0.5 | mt-3 mb-5 | bg-red-500">
+
+        <div class="grid grid-cols-1 gap-4 md:gap-6 | text-xl lg:text-2xl tracking-wide lg:leading-normal">
+            {{ content | safe }}
+        </div>
+
+        <br>
+        <em>posted on: <strong>{{ page.date | postDate}}</strong> </em>
+
+        {% if recommendedPosts %}
+        <div class="bg-gray-200 | px-7 py-10 mt-9">
+            {% set postListItems = recommendedPosts %}
+            {% set postListHeadline = 'Read more posts' %}
+
+            {% include "partials/postlist.njk" %}
+        </div>
+        {% endif %}
+
+    </div>
+</div>
+

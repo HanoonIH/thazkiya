@@ -1,0 +1,27 @@
+<div>
+    <div>
+        {% if postListHeadline %}
+            <h2 class="text-2xl text-red-700 font-bold | pl-5">
+                {{ postListHeadline }}
+            </h2>
+        {% endif %}
+        <div>
+            <ol class="">
+                {% for item in postListItems %}
+                    <div class="group relative bg-white hover:bg-yellow-100 rounded-lg filter drop-shadow m-3 p-5">
+                        <h2 class="font-bold">
+                            <a href="{{ item.url }}" class="notoSerif text-lg tracking-wide">
+                                {{ item.data.title }}
+                            </a>
+                        </h2>
+                        {# <em> {{ post.date | postDate }} </em> #}
+                        <div class="absolute bottom-0 right-0 | bg-red-600 bg-opacity-0 group-hover:bg-opacity-100 | transition duration-500 |
+                                rounded-tl-lg rounded-br-lg | py-1 px-3">
+                            <p class="text-white">➡️</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </ol>
+        </div>
+    </div>
+</div>

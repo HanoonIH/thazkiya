@@ -5,13 +5,26 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ title }}</title>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/style.css">
     </head>
     <body>
+        <div >
+            {% include "partials/site-header.njk" %}
+        </div>
+        <div>
+            <div>
+                {{ content | safe }}
+            </div>
+        </div>
 
-        <h1>HANOON's BLOG</h1>
-        
-        {{ content | safe }}
+        <footer class="bg-white | border-t-2 | py-5" >
+           <a href="https://hanoonih.github.io/#" target="_blank">
+               <p class="text-gray-800 text-center font-sans">Developed by <span class="font-bold">HIH<span></p>
+            </a>
+        </footer>
 
-        {# {% block content %}{% endblock %} #}
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        {# <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60dcbf97122abbf6"></script> #}
     </body>
 </html>
