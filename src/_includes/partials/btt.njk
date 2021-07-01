@@ -1,0 +1,22 @@
+
+<button 
+    class="hidden | fixed bottom-3 right-16 z-50 | h-8 w-8 | text-sm text-white | cursor-pointer | bg-yellow-500 hover:bg-yellow-600 | rounded-full"
+    onclick="backToTop()" 
+    id="myBtn" 
+    title="Go to top">▲</button>
+<script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll =  () => { scrollFunction() };
+    function scrollFunction() {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>

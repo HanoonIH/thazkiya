@@ -37,6 +37,14 @@ module.exports = {
         }
 
         return filteredItems;
+    },
+
+    // remove first item of obj and return
+    deleteFirstItem(obj) {
+        let newObj = { ...obj };
+        delete newObj.all;
+        // newObj = obj;
+        return newObj;
     }
 
 }

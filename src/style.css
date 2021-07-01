@@ -1,11 +1,16 @@
 @font-face {
     font-family: notoSerif;
     src: url(./assets/fonts/NotoSerifMalayalam-Regular.ttf);
-  }
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 h1, p, .notoSerif {
     font-family: notoSerif;
 }
+
 blockquote {
     border-left: 10px solid #ccc;
     padding: 20px 0 20px 20px;
@@ -14,7 +19,6 @@ blockquote {
 }
 
 @media screen and (max-width:768px) {
-    
     blockquote {
         border-left: 5px solid #ccc;
         padding: 20px 0 20px 12px;
