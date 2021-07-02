@@ -6,13 +6,18 @@ layout: 'layouts/base.njk'
 
     <div class="max-w-screen-lg mx-auto">
         {% if tag %}
-        <div class="pt-5">
-            {% set feedList = collections[ tag ] %}
-            <p class="fontSerif | text-3xl text-center font-bold text-white tracking-wide | bg-green-500 | rounded-xl | pb-3 pt-4 px-3 | flex justify-center" >
-                {{ tag }}
-            </p>
-            {% include "layouts/feed.njk" %}
-        </div>
+            <div class="pt-5">
+                {% set feedList = collections[ tag ] %}
+                <p class="fontSerif | text-3xl text-center font-bold text-white tracking-wide | bg-green-500 | rounded-xl | pb-3 pt-4 px-3 | flex justify-center" >
+                    {{ tag }}
+                </p>
+                {% include "layouts/feed.njk" %}
+            </div>
+
+            <div class="flex align-center justify-center | mb-9">
+                {% set tagsDisplayTitle = 'More Topics' %}
+                {% include "partials/tags-display.njk" %}
+            </div>
         {% endif %}
     </div>
 
@@ -30,28 +35,17 @@ layout: 'layouts/base.njk'
         </div>
 
 
-        <div id="fatwas">
+        <div id="fatwas" class="my-5">
             <section class="flex align-center justify-center">
-                <div>
-                    <h1 class="text-2xl text-center font-bold font-sans | mt-7 mb-3">Read by topics</h1>
-
-                    <div>
-                        {%- for tag, posts in helpers.deleteFirstItem(collections) | dictsort %}
-                            <a href="/tags/{{ tag }}/" class="group | inline-flex | mb-2 mr-2">
-                                <p class="text-base font-sans font-bold text-black group-hover:text-white | group-hover:bg-blue-900 | border-2 border-blue-900 rounded-l | pb-1 pt-2 px-2 " >
-                                    {{ tag }}
-                                </p>
-                                <p class="text-base font-sans font-bold text-white group-hover:text-black | bg-blue-900 group-hover:bg-transparent | border-2 border-blue-900 rounded-r | pb-1 pt-2 px-2 " >
-                                    {{posts | length }}
-                                </p>
-                            </a>
-                        {%- endfor %}
-                    </div>
-                </div>
+                    {% set tagsDisplayTitle = 'Read by topics' %}
+                    {% include "partials/tags-display.njk" %}
             </section>
-            
-            {% set feedList = collections.post %}
+
+            {% set feedList = posts %}
             {% include "layouts/feed.njk" %}
+
+            {% include "partials/pagination.njk" %}
+
         </div>
     {% endif %}
 

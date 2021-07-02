@@ -9,7 +9,7 @@ layout: 'layouts/base.njk'
 
         <div class="mb-3">
         {% for item in tags %}
-            <a href="/tags/{{ item }}/" class="inline-block |  mb-2 mr-2">
+            <a href="/tags/{{ item }}/" class="tag | inline-block |  mb-2 mr-2">
                 <p class="fontSerif | text-sm font-bold hover:text-white | hover:bg-red-500 | border-2 border-red-500 rounded | pb-1 pt-2 px-2 " >
                     {{ item }}
                 </p>
@@ -30,7 +30,7 @@ layout: 'layouts/base.njk'
 
         <hr class="h-0.5 | mt-3 mb-5 | bg-red-500">
 
-        <div class="grid grid-cols-1 gap-4 md:gap-6 | text-xl lg:text-2xl tracking-wide lg:leading-normal">
+        <div class="content | grid grid-cols-1 gap-4 md:gap-6 | text-xl lg:text-2xl tracking-wide lg:leading-normal">
             {{ content | safe }}
         </div>
 
@@ -48,4 +48,12 @@ layout: 'layouts/base.njk'
 
     </div>
 </div>
+
+<script>
+    var content = document.querySelector('.content');
+    content.querySelectorAll('a').forEach(a => {
+        a.setAttribute("target", "_blank");
+    });
+</script>
+
 

@@ -1,0 +1,30 @@
+{# Only renders this section if there are links to render #}
+{% if pagination.href.next or pagination.href.previous %}
+
+    <div class="flex align-center justify-center mt-5 mb-12">
+      <nav class="" aria-label="Pagination links">
+
+        {% if pagination.href.previous %}
+          <a href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards" class="bg-blue-900 hover:bg-green-900 | rounded-lg | text-white text-sm | p-3 m-3" >
+            <span>{{ paginationPrevText if paginationPrevText else '❮❮❮' }}</span>
+          </a>
+        {% else %}
+          <a data-direction="backwards" class="opacity-50 | bg-blue-900 | rounded-lg | text-white text-sm | p-3 m-3">
+            <span>{{ paginationPrevText if paginationPrevText else '❮❮❮' }}</span>
+          </a>
+        {% endif %}
+
+        {% if pagination.href.next %}
+          <a href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards" class="bg-blue-900 hover:bg-green-900 | rounded-lg | text-white text-sm | p-3 m-3" >
+            <span>{{ paginationNextText if paginationNextText else '❯❯❯' }}</span>
+          </a>
+        {% else %}
+          <a data-direction="forwards" class="opacity-50 | bg-blue-900 | rounded-lg | text-white text-sm | p-3 m-3" >
+            <span>{{ paginationNextText if paginationNextText else '❯❯❯' }}</span>
+          </a>
+        {% endif %}
+
+      </nav>
+    </div>
+
+{% endif %}

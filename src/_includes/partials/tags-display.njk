@@ -1,0 +1,17 @@
+<div>
+    <h1 class="text-2xl text-center font-bold font-sans | mt-7 mb-3">{{ tagsDisplayTitle }}</h1>
+    <div>
+        {%- for tag, posts in helpers.deleteFirstItem(collections) | dictsort %}
+            <a href="/tags/{{ tag }}/" class="group | inline-flex | mb-2 mr-2">
+                <p class="text-base font-sans font-bold text-black group-hover:text-white | group-hover:bg-blue-900 | border-2
+                        border-blue-900 rounded-l | pb-1 pt-2 px-2 ">
+                    {{ tag }}
+                </p>
+                <p class="text-base font-sans font-bold text-white group-hover:text-black | bg-blue-900 group-hover:bg-transparent |
+                        border-2 border-blue-900 rounded-r | pb-1 pt-2 px-2 ">
+                    {{ posts | length }}
+                </p>
+            </a>
+        {%- endfor %}
+    </div>
+</div>
