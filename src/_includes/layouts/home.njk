@@ -8,7 +8,7 @@ layout: 'layouts/base.njk'
         {% if tag %}
             <div class="pt-5">
                 {% set feedList = collections[ tag ] %}
-                <p class="fontSerif | text-3xl text-center font-bold text-white tracking-wide | bg-green-500 | rounded-xl | pb-3 pt-4 px-3 | flex justify-center" >
+                <p class="fontSerif | text-2xl md:text-3xl text-center font-bold text-white tracking-wide | bg-green-500 | rounded-xl | pb-3 pt-4 mx-3 " >
                     {{ tag }}
                 </p>
                 {% include "layouts/feed.njk" %}

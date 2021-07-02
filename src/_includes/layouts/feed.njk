@@ -1,4 +1,4 @@
-<div class="flex align-center justify-center py-6 ">
+<div class="flex align-center justify-center py-3 md:py-6 ">
     <div class="grid grid-cols-1 lg:grid-cols-2 max-w-screen-lg">
         {% for post in feedList %}
             <div class="group relative bg-white hover:bg-yellow-100 rounded-lg filter drop-shadow m-3 p-5">
@@ -10,7 +10,7 @@
                 {# <em> {{ post.date | postDate }} </em> #}
                 <div class="absolute bottom-0 right-0 | bg-red-600 bg-opacity-0 group-hover:bg-opacity-100 | transition duration-500 |
                         rounded-tl-lg rounded-br-lg | py-1 px-3">
-                    <p class="text-white">➡️</p>
+                        {% include "partials/arrow-right.svg" %}
                 </div>
             </div>
         {% endfor %}
