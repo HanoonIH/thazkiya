@@ -8,14 +8,17 @@ layout: 'layouts/base.njk'
     <div>
         <div class="px-5 | sm:max-w-screen-md">
 
-            <div class="mb-3">
-            {% for item in tags %}
-                <a href="/tags/{{ item }}/" class="tag | inline-block |  mb-2 mr-2">
-                    <p class="fontSerif | text-sm font-bold hover:text-white | hover:bg-red-500 | border-2 border-red-500 rounded | pb-1 pt-2 px-2 " >
-                        {{ item }}
-                    </p>
-                </a>
-            {% endfor %}
+            <div class="mb-3 flex flex-wrap">
+                <p class="text-sm font-semibold text-white font-sans | bg-blue-900 rounded | p-2 mr-2 ">
+                    {{number}}
+                </p>
+                {% for item in tags %}
+                    <a href="/tags/{{ item }}/" class="tag | inline-block | mr-2">
+                        <p class="fontSerif | text-sm font-bold hover:text-white | hover:bg-red-500 | border-2 border-red-500 rounded | pb-1 pt-2 px-2 " >
+                            {{ item }}
+                        </p>
+                    </a>
+                {% endfor %}
             </div>
 
             <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-snug lg:leading-snug | mb-2">{{ title }}</h1>
