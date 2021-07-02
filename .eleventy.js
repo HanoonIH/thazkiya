@@ -5,6 +5,7 @@ module.exports = config => {
     // Passthrough
     config.addPassthroughCopy('./src/assets/');
     config.addPassthroughCopy('./src/style.css');
+    config.addPassthroughCopy('./src/admin');
 
     // Filters
     config.addFilter("postDate", (dateObj) => {

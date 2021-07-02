@@ -13,6 +13,9 @@
         
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/style.css">
+
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     </head>
     <body>
 
@@ -35,5 +38,18 @@
 
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60dcbf97122abbf6"></script>
+
+        <script>
+            if (window.netlifyIdentity) {
+                window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                    });
+                }
+                });
+            }
+        </script>
+
     </body>
 </html>
