@@ -4,8 +4,11 @@ module.exports = config => {
 
     // Passthrough
     config.addPassthroughCopy('./src/assets/');
+    config.addPassthroughCopy('./src/icons/');
     config.addPassthroughCopy('./src/style.css');
     config.addPassthroughCopy('./src/admin');
+    config.addPassthroughCopy('./src/manifest.json');
+    config.addPassthroughCopy('./src/service-worker.js');
 
     // Filters
     config.addFilter("postDate", (dateObj) => {

@@ -16,6 +16,8 @@
 
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
+        <link rel="manifest" href="manifest.json">
+
     </head>
     <body>
 
@@ -39,6 +41,7 @@
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60dcbf97122abbf6"></script>
 
+        {# Netlify cms login with Netlify Identity #}
         <script>
             if (window.netlifyIdentity) {
                 window.netlifyIdentity.on("init", user => {
@@ -48,6 +51,14 @@
                     });
                 }
                 });
+            }
+        </script>
+
+        {# PWA #}
+        <script>
+            // Check if browser support service-worker
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/service-worker.js')
             }
         </script>
 

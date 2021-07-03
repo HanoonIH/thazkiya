@@ -38,3 +38,10 @@ blockquote {
         background-color: rgb(255, 254, 208);
     }
 }
+
+@media print {
+    /* Addthis.com share button */
+    .at-expanding-share-button-toggle-bg {
+        display: none;
+    }
+}
