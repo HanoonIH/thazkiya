@@ -4,10 +4,9 @@ fullTitle: എപ്പോഴും കൈ ഉയർത്തിയാണോ പ
 number: 1
 tags:
   - പ്രാർത്ഥന
-image: https://i.pinimg.com/originals/7c/25/a9/7c25a976f4b6638e440f2afc8519e172.jpg
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1-i97oo5itExaXuxTlYhMOWjtC_fx3ZD4rg&usqp=CAU
 videoLink: https://youtu.be/MiTeKeS90pw
 translator: മുജാഹിദ് പറവണ്ണ
-
 ---
 **ശൈഖ് സുലൈമാൻ റുഹൈലി** (ഹഫിള്വഹുള്ളാഹ്) പറയുന്നു:
 
