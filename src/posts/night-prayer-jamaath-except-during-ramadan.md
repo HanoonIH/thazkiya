@@ -8,6 +8,7 @@ tags:
 image: https://www.islam.com.kw/wp-content/uploads/2018/12/Making-up-for-the-Missed-Witr-Prayer.jpg
 videoLink: https://youtu.be/Szx5o4VFvGQ
 translator: മുജാഹിദ് പറവണ്ണ
+translatorInfo: (വിദ്യാർത്ഥി, ജാമിഅ അൽ ഹിന്ദ് അൽ ഇസ്‌ലാമിയ്യ - മിനിഊട്ടി)
 ---
 **ഇബ്നു ഉഥൈമീൻ** റഹിമഹുള്ള നൽകിയ ഫത്‌വ:
 
