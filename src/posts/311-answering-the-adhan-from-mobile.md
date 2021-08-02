@@ -4,7 +4,6 @@ fullTitle: മൊബൈലിൽ നിന്ന് ബാങ്ക് കേൾ
 number: 311
 tags:
   - നമസ്കാരം
-  - ""
 image: https://funci.org/wp-content/uploads/2016/07/mosque--1024x683.jpg
 videoLink: https://youtu.be/ITa63QTbX0g
 translator: മുജാഹിദ് പറവണ്ണ
