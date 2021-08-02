@@ -46,7 +46,11 @@ layout: 'layouts/base.njk'
             {% endif %}
             
             <br><br>
-            <p class="text-xl">ആശയവിവർത്തനം: <span class="font-bold"> {{ translator }} </span></p>
+            <p class="">
+                <i class="text-sm lg:text-md">ആശയവിവർത്തനം: </i> <br>
+                <span class="font-bold text-md lg:text-xl"> {{ translator }} </span> 
+                {{ translatorInfo }}
+            </p> <br>
             <em>posted on: <strong>{{ page.date | postDate}}</strong> </em>
         </div>
 

@@ -20,3 +20,4 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Video Link", name: "videoLink", widget: "string" }
       - { label: "Translator", name: "translator", widget: "string" }
+      - { label: "Translator info", name: "translatorInfo", widget: "string" }

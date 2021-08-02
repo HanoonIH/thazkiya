@@ -6,9 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         {% if tag %}
-            <title>topic: {{ tag }} - thazkiya</title>
+            <title>topic: {{ tag }}</title>
         {% endif %}
 
+        {% if fullTitle %}
+            <title>{{ fullTitle }}</title>
+        {% endif %}
+        
         <title>{{ title }}</title>
         
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
