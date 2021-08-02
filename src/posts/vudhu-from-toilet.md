@@ -8,6 +8,7 @@ tags:
 image: https://raiyanfoundation.com/wp-content/uploads/2018/03/sunnah-acts-of-ablution.jpg
 videoLink: https://youtu.be/x3vJ5a7qHEk
 translator: മുജാഹിദ് പറവണ്ണ
+translatorInfo: (വിദ്യാർത്ഥി, ജാമിഅ അൽ ഹിന്ദ് അൽ ഇസ്‌ലാമിയ്യ - മിനിഊട്ടി)
 ---
 <!--StartFragment-->
 
