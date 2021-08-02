@@ -18,14 +18,14 @@ blockquote {
     background-color: rgb(255, 254, 208);
 }
 
-.content a {
+.videoLink {
     color: blue;
     font-weight: bold;
     font-family: sans-serif;
     text-decoration: underline;
     text-decoration-color: red;
 }
-.content a:hover {
+.videoLink:hover {
     color: red;
     text-decoration-color: blue;
 }

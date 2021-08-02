@@ -12,8 +12,11 @@ collections:
     slug: "{{slug}}"
     fields: 
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Malayalam Title", name: "fullTitle", widget: "string" }
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Author", name: "author", widget: "string", required: false }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Video Link", name: "videoLink", widget: "string" }
+      - { label: "Translator", name: "translator", widget: "string" }

@@ -21,7 +21,7 @@ layout: 'layouts/base.njk'
                 {% endfor %}
             </div>
 
-            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-snug lg:leading-snug | mb-2">{{ title }}</h1>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-snug lg:leading-snug | mb-2">{{ fullTitle }}</h1>
 
             {% if author %}
             <div class="flex">
@@ -40,7 +40,13 @@ layout: 'layouts/base.njk'
                 {{ content | safe }}
             </div>
 
+            {% if videoLink %}
             <br>
+            <p class="font-bold text-xl lg:text-2xl">🎥 ഫത്‌വ കേൾക്കാൻ: <a href="{{ videoLink }}" class="videoLink">Watch Video</a></p>
+            {% endif %}
+            
+            <br><br>
+            <p class="text-xl">ആശയവിവർത്തനം: <span class="font-bold"> {{ translator }} </span></p>
             <em>posted on: <strong>{{ page.date | postDate}}</strong> </em>
         </div>
 

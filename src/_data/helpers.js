@@ -43,7 +43,7 @@ module.exports = {
     deleteFirstItem(obj) {
         let newObj = { ...obj };
         delete newObj.all;
-        // newObj = obj;
+        // newObj = obj; 
         return newObj;
     }
 
