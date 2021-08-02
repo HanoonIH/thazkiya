@@ -7,6 +7,7 @@ tags:
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1-i97oo5itExaXuxTlYhMOWjtC_fx3ZD4rg&usqp=CAU
 videoLink: https://youtu.be/MiTeKeS90pw
 translator: മുജാഹിദ് പറവണ്ണ
+translatorInfo: (വിദ്യാർത്ഥി, ജാമിഅ അൽ ഹിന്ദ് അൽ ഇസ്‌ലാമിയ്യ - മിനിഊട്ടി)
 ---
 **ശൈഖ് സുലൈമാൻ റുഹൈലി** (ഹഫിള്വഹുള്ളാഹ്) പറയുന്നു:
 
