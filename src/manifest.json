@@ -1,7 +1,9 @@
 {
-    "name": "Thazkiya - Fatwa translations",
-    "short_name": "Thazkiya",
+    "name": "Call To Allah",
+    "short_name": "Call To Allah",
+    "description": "Fatwa translations of Salafi scholars",
     "start_url": "/?home=true",
+    "scope": "/",
     "icons": [
         {
             "src": "/icons/manifest-icon-192.png",
