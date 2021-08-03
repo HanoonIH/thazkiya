@@ -72,6 +72,11 @@ layout: 'layouts/base.njk'
     content.querySelectorAll('a').forEach(a => {
         a.setAttribute("target", "_blank");
     });
+    
+    var mainContent = document.querySelector('.content');
+    mainContent.querySelectorAll('a').forEach(a => {
+        a.classList.add("videoLink", "text-base")
+    })
 </script>
 
 
