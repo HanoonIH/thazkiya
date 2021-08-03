@@ -37,9 +37,10 @@ translatorInfo: " (വിദ്യാർത്ഥി, ജാമിഅ അൽ ഹ
 
 ഇതൊക്കെ മനസിൽ ചൊല്ലുന്നവനെ മിണ്ടാതിരിക്കുന്നവനായിട്ടാണ് കണക്കാക്കുക.
 
-**ഫത്‌വകൾ കേൾക്കാൻ:**\
-<https://youtu.be/EVBYHaZleug>\
-<https://youtu.be/oIfhAO33_tA>
+**ഫത്‌വകൾ കേൾക്കാൻ:**
+
+1. [Watch video](https://youtu.be/EVBYHaZleug)
+2. [Watch video](https://youtu.be/oIfhAO33_tA)
 
 **ശൈഖ് ഇബ്നു ഉഥൈമീൻ** (റഹിമഹുല്ലാഹ്) പറയുന്നു: 
 
