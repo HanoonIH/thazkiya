@@ -53,11 +53,11 @@
         <meta property="og:site_name" content="Call To Allah" />
         <meta property="og:title" content="{{ tag }}{{ title }}" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="{{ page.url }}" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:image" content="/icons/apple-icon-180.png" />
-        <meta name="twitter:image" content="/icons/apple-icon-180.png" />
+        <meta property="og:image" content="{{ site.url }}/icons/apple-icon-180.png" />
+        <meta name="twitter:image" content="{{ site.url }}/icons/apple-icon-180.png" />
         {#  #}
         
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
