@@ -7,27 +7,48 @@ html {
     scroll-behavior: smooth;
 }
 
-h1, p, .notoSerif {
+.tagsDisplay::-webkit-scrollbar {
+    height: 6px;
+}
+
+.tagsDisplay::-webkit-scrollbar-track {
+    background-color: #93C5FD;
+    border-radius: 1rem;
+}
+
+.tagsDisplay::-webkit-scrollbar-thumb {
+    background-color: #1E3A8A;
+    border-radius: 1rem;
+}
+
+h1, p, code, .notoSerif {
     font-family: notoSerif;
 }
 
 blockquote {
-    border-left: 10px solid #ccc;
+    border-left: 10px solid rgb(158, 157, 122);
     padding: 20px 0 20px 20px;
     /* margin: 10px 0; */
     background-color: rgb(255, 254, 208);
 }
 
+.hadeesCode {
+    border-left: 10px solid rgb(80, 143, 83);
+    padding: 20px 0 20px 20px;
+    background-color: rgba(218, 247, 216, 0.644);
+}
+
 .videoLink {
-    color: blue;
+    color: #1E3A8A;
     font-weight: bold;
     font-family: sans-serif;
     text-decoration: underline;
-    text-decoration-color: red;
+    text-decoration-color: #B91C1C;
 }
+
 .videoLink:hover {
-    color: red;
-    text-decoration-color: blue;
+    color: #B91C1C;
+    text-decoration-color: #1E3A8A;
 }
 
 @media screen and (max-width:768px) {

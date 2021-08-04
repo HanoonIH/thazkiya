@@ -1,11 +1,15 @@
+
+
+
+
 <div class="hidden lg:block">
     <h1 class="text-2xl text-center font-bold font-sans | mt-7 mb-3">{{ tagsDisplayTitle }}</h1>
-    <div class="flex flex-wrap align-center justify-center">
+    <div class="tagsDisplay | flex flex-nowrap max-w-screen-lg overflow-auto">
         {%- for tag, posts in helpers.deleteFirstItem(collections) | dictsort %}
             <a href="/tags/{{ tag }}/" class="group | inline-flex | mb-2 mr-2">
                 <p class="text-xs lg:text-base font-sans font-bold text-black group-hover:text-white | bg-white group-hover:bg-blue-900 | border-2
                         border-blue-900 rounded | pb-1 pt-2 px-2 ">
-                    {% if tag == 'post'%} All Fatwa
+                    {% if tag == 'post'%} All&nbsp;Fatwa
                     {% else %} {{ tag }}
                     {% endif %}
                 </p>

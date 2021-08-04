@@ -21,7 +21,7 @@ layout: 'layouts/base.njk'
                 {% endfor %}
             </div>
 
-            <h1 class="break-all lg:break-normal text-3xl md:text-4xl lg:text-5xl font-bold leading-snug lg:leading-snug | mb-2">{{ fullTitle }}</h1>
+            <h1 class="text-green-900 text-2xl md:text-4xl lg:text-5xl font-bold leading-snug lg:leading-snug | mb-2">{{ fullTitle }}</h1>
 
             {% if author %}
             <div class="flex">
@@ -36,19 +36,19 @@ layout: 'layouts/base.njk'
 
             <img src="{{ image }}" alt="" class="mb-6 lg:mb-12">
 
-            <div class="content | grid grid-cols-1 gap-4 md:gap-6 | text-xl lg:text-2xl tracking-wide lg:leading-normal">
+            <div class="content | grid grid-cols-1 gap-4 md:gap-6 | text-lg lg:text-2xl tracking-wide lg:leading-normal">
                 {{ content | safe }}
             </div>
 
             {% if videoLink %}
             <br>
-            <p class="font-bold text-xl lg:text-2xl">🎥 ഫത്‌വ കേൾക്കാൻ: <a href="{{ videoLink }}" class="videoLink">Watch Video</a></p>
+            <p class="font-bold text-lg lg:text-2xl">🎥 ഫത്‌വ കേൾക്കാൻ: <a href="{{ videoLink }}" class="videoLink">Watch Video</a></p>
             {% endif %}
             
             <br><br>
-            <p class="">
-                <i class="text-sm lg:text-md">ആശയവിവർത്തനം: </i> <br>
-                <span class="font-bold text-md lg:text-xl"> {{ translator }} </span> 
+            <p class="text-gray-700 text-sm lg:text-lg">
+                <i class="">ആശയവിവർത്തനം: </i> <br>
+                <span class="text-blue-900 font-bold"> {{ translator }} </span> 
                 {{ translatorInfo }}
             </p> <br>
             <em>posted on: <strong>{{ page.date | postDate}}</strong> </em>
@@ -77,6 +77,11 @@ layout: 'layouts/base.njk'
     mainContent.querySelectorAll('a').forEach(a => {
         a.classList.add("videoLink");
     })
+
+    var hadeesCodes = document.querySelectorAll('code');
+    hadeesCodes.forEach(h => {
+        h.parentElement.classList.add("hadeesCode");
+    });
 </script>
 
 
