@@ -18,6 +18,6 @@ collections:
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Video Link", name: "videoLink", widget: "string" }
+      - { label: "Video Link", name: "videoLink", widget: "string", required: false }
       - { label: "Translator", name: "translator", widget: "string" }
       - { label: "Translator info", name: "translatorInfo", widget: "string" }
