@@ -5,7 +5,7 @@ number: 303
 tags:
   - ബലി
   - പെരുന്നാള്‍
-image: https://www.incimages.com/uploaded_files/image/1920x1080/GettyImages-674481081_427581.jpg
+image: https://pngtreefree.club/wp-content/uploads/2021/07/pngtree-eid-al-adha-arabic-calligraphy-sticker-transparent-background-png-image_3593727.jpg
 videoLink: ""
 translator: മുജാഹിദ് പറവണ്ണ
 translatorInfo: (വിദ്യാർത്ഥി, ജാമിഅ അൽ ഹിന്ദ് അൽ ഇസ്‌ലാമിയ്യ - മിനിഊട്ടി)
