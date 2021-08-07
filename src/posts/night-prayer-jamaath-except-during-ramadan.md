@@ -1,5 +1,5 @@
 ---
-title: night-prayer-jamaath-except-during-ramadan
+title: 3-night-prayer-jamaath-except-during-ramadan
 fullTitle: റമളാനിലല്ലാതെ രാത്രി നമസ്ക്കാരം ജമാഅത്തായി നിർവ്വഹിക്കാമോ?
 number: 3
 tags:
