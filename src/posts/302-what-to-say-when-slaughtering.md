@@ -5,7 +5,7 @@ number: 302
 tags:
   - ബലി
   - പെരുന്നാള്‍
-image: https://ichef.bbci.co.uk/news/976/cpsprodpb/22B5/production/_116758880_b3d77d04-9c88-49fd-aa4e-894210fb4452.jpg
+image: https://www.myumrahguide.com/images/bismillahi-Allahu-akbar.jpg
 videoLink: https://youtu.be/79MykIeTTuE
 translator: മുജാഹിദ് പറവണ്ണ
 translatorInfo: (വിദ്യാർത്ഥി, ജാമിഅ അൽ ഹിന്ദ് അൽ ഇസ്‌ലാമിയ്യ - മിനിഊട്ടി)
