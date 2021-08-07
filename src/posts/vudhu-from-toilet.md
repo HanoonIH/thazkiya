@@ -1,5 +1,5 @@
 ---
-title: vudhu-from-toilet
+title: 2-vudhu-from-toilet
 fullTitle: ടോയ്ലെറ്റിനുള്ളിൽ വെച്ച് വുളൂഅ് ചെയ്യുന്നതിന്റെ വിധിയെന്ത്?
 number: 2
 tags:
