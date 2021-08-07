@@ -5,7 +5,7 @@ number: 300
 tags:
   - സ്ത്രീ
   - ബലി
-image: https://ichef.bbci.co.uk/news/976/cpsprodpb/22B5/production/_116758880_b3d77d04-9c88-49fd-aa4e-894210fb4452.jpg
+image: https://bukowskitavern.net/wp-content/uploads/2020/12/u-Best-Knives-For-Cutting-Meat-1.jpg
 translator: മുജാഹിദ് പറവണ്ണ
 translatorInfo: (വിദ്യാർത്ഥി, ജാമിഅ അൽ ഹിന്ദ് അൽ ഇസ്‌ലാമിയ്യ - മിനിഊട്ടി)
 ---
