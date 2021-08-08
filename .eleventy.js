@@ -18,7 +18,7 @@ module.exports = config => {
     // Returns a collection of blog posts in reverse date order
     config.addCollection('post', collection => {
         // return [...collection.getFilteredByGlob('./src/posts/*.md').reverse()];
-        return [...collection.getFilteredByGlob('./src/posts/*.md').sort(function(a, b){ return a.number -b.number })];
+        return [...collection.getFilteredByGlob('./src/posts/*.md')].sort(function(a, b){ return a.number - b.number });
     });
 
     return {
