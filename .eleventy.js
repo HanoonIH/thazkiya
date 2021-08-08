@@ -20,7 +20,7 @@ module.exports = config => {
         // return [...collection.getFilteredByGlob('./src/posts/*.md').reverse()];
         // return [...collection.getFilteredByGlob('./src/posts/*.md')].sort(function(a, b){ return a.number - b.number });
         let posts = collection.getFilteredByGlob('./src/posts/*.md');
-        posts.sort(function(a, b){return a-b});
+        // posts.sort(function(a, b){return a-b});
         return posts;
     });
 
