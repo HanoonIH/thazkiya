@@ -10,4 +10,6 @@ videoLink: ""
 translator: മുജാഹിദ് പറവണ്ണ
 translatorInfo: " (വിദ്യാർത്ഥി, ജാമിഅ അൽ ഹിന്ദ് അൽ ഇസ്‌ലാമിയ്യ - മിനിഊട്ടി)"
 ---
+**ശൈഖ് സുലൈമാൻ റുഹൈലി** (ഹഫിള്വഹുല്ലാഹ്) നൽകിയ ഫത്‌വ:  
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6_8UJpMlRWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
