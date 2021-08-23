@@ -3,9 +3,7 @@ title: 331-blood-donation-in-islam
 fullTitle: രക്തം ദാനം ചെയ്യുന്നതിന്റെ വിധി എന്താണ്?
 number: 331
 tags:
-  - നോമ്പ്
-  - സുന്നത്ത്
-  - റമദാൻ
+  - സ്വദഖ
 image: https://www.centurypa.com/images/blog/Blood%20donation.jpg
 videoLink: https://youtu.be/3I572Pla5KI
 translator: മുജാഹിദ് പറവണ്ണ
