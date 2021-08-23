@@ -7,7 +7,7 @@ tags:
   - നോമ്പ്
   - സുന്നത്ത്
   - റമദാൻ
-image: https://www.islamichelp.org.uk/wp-content/uploads/2019/02/Ramadan-Kareem.jpg
+image: ""
 videoLink: ""
 translator: മുജാഹിദ് പറവണ്ണ
 translatorInfo: " (വിദ്യാർത്ഥി, ജാമിഅ അൽ ഹിന്ദ് അൽ ഇസ്‌ലാമിയ്യ - മിനിഊട്ടി)"
