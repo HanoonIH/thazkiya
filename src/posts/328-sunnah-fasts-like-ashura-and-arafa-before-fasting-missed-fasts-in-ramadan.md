@@ -14,4 +14,4 @@ translatorInfo: " (വിദ്യാർത്ഥി, ജാമിഅ അൽ ഹ
 ---
 **ശൈഖ് സുലൈമാൻ റുഹൈലി** (ഹഫിള്വഹുല്ലാഹ്) നൽകിയ ഫത്‌വ:  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6_8UJpMlRWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="videoWrapper"><iframe width="720" height="405" src="https://www.youtube.com/embed/6_8UJpMlRWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>/div>7
