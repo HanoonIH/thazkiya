@@ -4,7 +4,6 @@ fullTitle: ആൽക്കഹോൾ അടങ്ങിയ അത്തറും 
 number: 101
 tags:
   - വസ്ത്രം
-  - ""
 image: https://thehalallife.co.uk/wp-content/uploads/2017/12/hbz-perfume-index-new-1596058671-1038x576.jpg
 videoLink: https://youtu.be/iSKiY8dV4eA
 translator: മുജാഹിദ് പറവണ്ണ
