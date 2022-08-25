@@ -5,7 +5,7 @@ number: 449
 tags:
   - സുന്നത്ത്
   - ബിദ്അത്ത്
-image: https://quranacademy.io/blog/wp-content/uploads/2018/06/hadith-5-what-is-bidah.png
+image: https://i.natgeofe.com/n/f840f905-0e7c-42ac-bc4d-85d05bf09806/spiders_15_4x3.jpg
 videoLink: https://youtu.be/6my8DH1qzEY
 translator: മുജാഹിദ് പറവണ്ണ
 translatorInfo: " (വിദ്യാർത്ഥി, ജാമിഅ അൽ ഹിന്ദ് അൽ ഇസ്‌ലാമിയ്യ - മിനിഊട്ടി)"
