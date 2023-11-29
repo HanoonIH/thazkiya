@@ -1,8 +1,7 @@
 ---
-title: 316-speaking-while-giving-the-adhan
-fullTitle: ബാങ്ക് കൊടുക്കുന്നതിനിടയിൽ സംസാരിക്കുന്നവരെ മലക്കുകൾ ശപിക്കുമെന്ന്
-  പറയുന്നത് ശരിയാണോ?
-number: 316
+title: 316-speaking-while-giving-the-adh
+fullTitle: ബാങ്ക്  സംസാരിക്കുന്നവരെ മലക്കുകൾ ശപിക്കുമെന്ന് പറയുന്നത് ശരിയാണോ?
+number: 3999
 tags:
   - നമസ്കാരം
   - സംസാരം
